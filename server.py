@@ -150,21 +150,3 @@ def textToSpeech(text, voice_id) -> str:
 if __name__ == "__main__":
     # Run using stdio transport
     mcp.run(transport="stdio")
-
-
-
-result = list_models()
-print(result)
-result = get_model("meta-llama/llama-3.2-3b-instruct", "What is the time?")
-#print(result)
-print(result)
-#task_id = text2Image("A cute dog.")
-#print(task_id)
-result = task_result("31d8fcb5-c4a5-4870-804b-a9ee311d3da1")
-print(result)
-#result = image2Image("Give the dog a pink cap", "13322d17ecd64ac28f4584f0615ba488.jpeg")
-#print(result)
-#result = generateVideo("A video of a puppy dancing in a balerina costume")
-#print(result)
-# result = textToSpeech("Hello World, My name is Emily!", "Emily")
-# print(result)
